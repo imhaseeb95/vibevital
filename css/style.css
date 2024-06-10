@@ -142,6 +142,9 @@ textarea {
 	opacity: 0;
 	transition: all 1s ease;
 }
+.ckc-btn {
+	cursor: pointer;
+}
 input {
 	display: block;
 	line-height: 3.5rem;
