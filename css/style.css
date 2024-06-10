@@ -1725,3 +1725,61 @@ nav ul li a:hover {
 .terms-box p:last-child {
 	margin-bottom: 0;
 }
+
+/*======================
+	Web Devlopment Page
+=========================*/
+.web-dev-sec .grid-column-two {
+	align-items: center;
+}
+
+.inner-srvc-content {
+	padding-right: 2rem;
+}
+.inner-srvc-content h2 {
+	margin-bottom: 1.5rem;
+}
+.inner-srvc-content p {
+	margin-bottom: 1rem;
+}
+.inner-srvc-image img {
+	width: 100%;
+}
+.cnct-sec {
+	background: var(--bg-section-color);
+	padding: 1.5rem 0;
+}
+.contact-info-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.cnct-info-content h4 {
+	font-size: 1.8rem;
+	color: var(--color-black-200);
+}
+.contact-info-links {
+	display: flex;
+	gap: 1rem;
+}
+.cnct-links {
+	padding: 1rem;
+	border: 1px solid var(--color-border);
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--color-text);
+	border-radius: 0.5rem;
+	transition: var(--transition);
+}
+.cnct-links:hover {
+	color: var(--color-white);
+	background: var(--color-blue);
+	border-color: transparent;
+}
+.cnct-links i {
+	font-size: 1.4rem;
+}
