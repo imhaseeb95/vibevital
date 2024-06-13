@@ -1784,26 +1784,26 @@ nav ul li a:hover {
 	font-size: 1.4rem;
 }
 
-.services-provider{
-	border-bottom: 1px solid #ccc;
-	background-color: #ededed;
+.services-provider {
+	/* border-bottom: 1px solid #ccc; */
+	/* background-color: #ededed; */
 }
 .services-provider .grid-column-three {
-    gap: 2rem;
+	gap: 2rem;
 }
-.services-provider .value-card{
+.services-provider .value-card {
 	text-align: left;
 	/* background-color: #fff; */
 	box-shadow: none;
 	transition: none;
-	transform:none;
+	transform: none;
 }
-.services-provider .value-card h4{
+.services-provider .value-card h4 {
 	margin-bottom: 1rem;
 }
 .services-provider .value-card:hover {
 	transition: none;
-	transform:none;
+	transform: none;
 }
 .services-provider .value-card ul li {
 	list-style: none;
@@ -1811,16 +1811,20 @@ nav ul li a:hover {
 	position: relative;
 	font-size: 1.2em;
 }
-.services-provider .value-card ul li a{
+.services-provider .value-card ul li a {
 	color: #000;
 }
-.services-provider .value-card ul li a:hover{
-	color:#0d6efd;
+.services-provider .value-card ul li a:hover {
+	color: #0d6efd;
 }
-.services-provider .value-card ul li i{
-	font-size:14px;
+.services-provider .value-card ul li i {
+	font-size: 14px;
 	margin-right: 5px;
 }
-.txt-color{
-	color:#0d6efd
+.txt-color {
+	color: #0d6efd;
+}
+
+.work-process-sec .grid-column-three {
+	gap: 2rem;
 }
